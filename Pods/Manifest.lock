@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   TKTLibrary:
-    :commit: 033572be912ad8450d46943031463358e94f7d7f
+    :commit: 66ba38f781af16fe3366410e8d51128358d24ebd
     :git: https://github.com/boyvui821/TKTLibrary.git
 
 SPEC CHECKSUMS:

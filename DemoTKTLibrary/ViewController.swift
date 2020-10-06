@@ -25,13 +25,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onShowDemo(_ sender: Any) {
-        let storyboardName = "Analysis"
-        let storyboardBundle = Bundle(for: AnalysisViewController.self)
-        let storyboard = UIStoryboard(name: storyboardName, bundle: storyboardBundle)
-
-        let analysisStoryboard = UIStoryboard(name: storyboardName, bundle: storyboardBundle)
-        let vc = analysisStoryboard.instantiateViewController(withIdentifier:  "AnalysisViewController")
-        self.present(vc, animated: true, completion: nil)
+        TKTCLoud.shared.start(fromViewController: self)
     }
     
 
