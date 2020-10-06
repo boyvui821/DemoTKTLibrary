@@ -20,7 +20,7 @@
   },
   "source_files": "TKTLibrary/**/*.{swift,m,h}",
   "exclude_files": "TKTLibrary/Exclude",
-  "resources": "TKTLibrary/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}",
+  "resources": "TKTLibrary/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}",
   "frameworks": "UIKit",
   "dependencies": {
     "ObjectMapper": [

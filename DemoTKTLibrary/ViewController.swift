@@ -17,11 +17,10 @@ class ViewController: UIViewController {
         let domain = "https://shrouded-brushlands-68077.herokuapp.com"
         let key = "NWY0N2FkMjg4ZjFiYmIwYWViZDBkNDdhXzU2Nzg5MTBfSG5mMlJRcDhMbkNuWWhBQw=="
         let email = "ktpm489@gmail.com"
-        let lang = "vi"
         let config = TKTConfiguration(domain: domain,
                                       apiKey: key,
                                       email: email,
-                                      language: lang)
+                                      language: TKTLanguage.VI)
         TKTCLoud.shared.setConfigure(configure: config)
     }
     
