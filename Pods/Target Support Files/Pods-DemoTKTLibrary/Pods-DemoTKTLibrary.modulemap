@@ -1,0 +1,6 @@
+framework module Pods_DemoTKTLibrary {
+  umbrella header "Pods-DemoTKTLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

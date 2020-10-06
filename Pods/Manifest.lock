@@ -1,0 +1,28 @@
+PODS:
+  - ObjectMapper (4.2.0)
+  - TKTLibrary (0.0.1):
+    - ObjectMapper (~> 4.2)
+
+DEPENDENCIES:
+  - TKTLibrary (from `https://github.com/boyvui821/TKTLibrary.git`)
+
+SPEC REPOS:
+  trunk:
+    - ObjectMapper
+
+EXTERNAL SOURCES:
+  TKTLibrary:
+    :git: https://github.com/boyvui821/TKTLibrary.git
+
+CHECKOUT OPTIONS:
+  TKTLibrary:
+    :commit: 3b3392d1c694b8340a07c94ea279c83038756e1b
+    :git: https://github.com/boyvui821/TKTLibrary.git
+
+SPEC CHECKSUMS:
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  TKTLibrary: fcf4d634bac2f3d9158ac4d63dc0e4c3e52d7311
+
+PODFILE CHECKSUM: e7351050996945c30b65352e1e66723207ef1850
+
+COCOAPODS: 1.9.1

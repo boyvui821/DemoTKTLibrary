@@ -1,0 +1,30 @@
+{
+  "name": "TKTLibrary",
+  "version": "0.0.1",
+  "summary": "TKTLibrary for AI Analysis",
+  "description": "TKTLibrary for AI Analysis",
+  "homepage": "https://github.com/boyvui821/TKTLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "NguyenTrung": "ktpm11520669@gmail.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/boyvui821/TKTLibrary.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "TKTLibrary/**/*.{swift,m,h}",
+  "exclude_files": "TKTLibrary/Exclude",
+  "resources": "TKTLibrary/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "ObjectMapper": [
+      "~> 4.2"
+    ]
+  }
+}
